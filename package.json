@@ -15,10 +15,13 @@
     "prettier": "^3.4.2"
   },
   "dependencies": {
-    "prettier-plugin-tailwindcss": "^0.7.2",
-    "@trivago/prettier-plugin-sort-imports": "^6.0.2"
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"  
   },
   "exports": {
-    "./prettier": "./src/prettier.config.mjs"
+    "./prettier": "./src/prettier.config.cjs"
   }
 }
