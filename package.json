@@ -1,6 +1,6 @@
 {
   "name": "@fatal-cinema/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Core utils and shared setup",
   "type": "module",
   "publishConfig": {
@@ -19,7 +19,7 @@
     "prettier-plugin-tailwindcss": "^0.7.2"
   },
   "devDependencies": {
-    "prettier": "^3.4.2"  
+    "prettier": "^3.4.2"
   },
   "exports": {
     "./prettier": "./src/prettier.config.cjs"
