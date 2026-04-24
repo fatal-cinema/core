@@ -1,6 +1,6 @@
-// prettier.config.cjs
+// prettier.config.mjs
 /** @type {import("prettier").Config} */
-module.exports = {
+export default {
 	singleQuote: true,
 	trailingComma: 'es5',
 	useTabs: true,
@@ -10,7 +10,7 @@ module.exports = {
 	bracketSpacing: true,
 	jsxSingleQuote: true,
 	arrowParens: 'avoid',
-
+	importOrderParserPlugins: ['classProperties', 'decorators-legacy', 'typescript', 'jsx'],
 	importOrderTypeScriptVersion: '5.0.0',
 	importOrderCaseSensitive: false,
 	importOrder: [
@@ -26,7 +26,7 @@ module.exports = {
 		'^./(.*)$',
 	],
 
-	plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
+	plugins: ['prettier-plugin-tailwindcss', '@ianvs/prettier-plugin-sort-imports'],
 
 	overrides: [
 		{

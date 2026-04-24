@@ -22,6 +22,6 @@
     "prettier": "^3.4.2"
   },
   "exports": {
-    "./prettier": "./src/prettier.config.cjs"
+    "./prettier": "./src/prettier.config.mjs"
   }
 }
