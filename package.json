@@ -1,0 +1,24 @@
+{
+  "name": "@fatal-cinema/core",
+  "version": "1.0.0",
+  "description": "Core utils and shared setup",
+  "type":  "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "fatal-zxc",
+    "email": "faaatal_l@proton.me"
+  },
+  "peerDependencies": {
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2"
+  },
+  "exports": {
+    "prettier": "./src/prettier.config.mjs"
+  }
+}
