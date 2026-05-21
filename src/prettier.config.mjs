@@ -18,6 +18,7 @@ export default {
 		'',
 		'^@core/(.*)$',
 		'^@libs/(.*)$',
+		'^@observability/(.*)$',
 		'^@config/(.*)$',
 		'^@shared/(.*)$',
 		'^@api/(.*)$',
